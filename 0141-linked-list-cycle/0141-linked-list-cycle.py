@@ -7,10 +7,9 @@
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         hset = set()
-        node = head
-        while node:
-            if node in hset:
+        while head:
+            if head in hset:
                 return True
-            hset.add(node)
-            node = node.next
+            hset.add(head)
+            head = head.next
         return False
