@@ -4,10 +4,10 @@ class Solution:
         res = 0
         for n in hset:
             if n-1 not in hset:
-                count = 0
+                cur = 0
                 while n in hset:
-                    count += 1
+                    cur += 1
+                    res = max(res, cur)
                     n += 1
-                res = max(count, res)
         return res
                 
