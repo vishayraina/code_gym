@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/widdiot/code_gym/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/widdiot/code_gym/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/widdiot/code_gym/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/widdiot/code_gym/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/widdiot/code_gym/tree/master/0435-non-overlapping-intervals) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/widdiot/code_gym/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/widdiot/code_gym/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/widdiot/code_gym/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/widdiot/code_gym/tree/master/0435-non-overlapping-intervals) |
 | [0973-k-closest-points-to-origin](https://github.com/widdiot/code_gym/tree/master/0973-k-closest-points-to-origin) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/widdiot/code_gym/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/widdiot/code_gym/tree/master/0973-k-closest-points-to-origin) |
@@ -159,16 +162,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/widdiot/code_gym/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/widdiot/code_gym/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/widdiot/code_gym/tree/master/0143-reorder-list) |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/widdiot/code_gym/tree/master/0283-move-zeroes) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/widdiot/code_gym/tree/master/0011-container-with-most-water) |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/widdiot/code_gym/tree/master/0435-non-overlapping-intervals) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/widdiot/code_gym/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/widdiot/code_gym/tree/master/0253-meeting-rooms-ii) |
 ## Union-Find
 |  |
 | ------- |
