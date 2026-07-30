@@ -15,7 +15,5 @@ class Solution:
         dp = [0]*(len(intervals)+1)
         for i in range(1, len(dp)):
             last = lower_bound(0, i-1, intervals[i-1][0])
-            print(last)
             dp[i] = max(dp[i-1], dp[last+1]+1)
-        print(dp)
         return len(intervals) - dp[-1] 
