@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/widdiot/code_gym/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/widdiot/code_gym/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/widdiot/code_gym/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/widdiot/code_gym/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -193,4 +195,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/widdiot/code_gym/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/widdiot/code_gym/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/widdiot/code_gym/tree/master/0206-reverse-linked-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/widdiot/code_gym/tree/master/0104-maximum-depth-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/widdiot/code_gym/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
