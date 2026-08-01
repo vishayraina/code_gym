@@ -10,7 +10,6 @@ class Solution:
 
         def dfs(node, p, q):
             if node:
-                print(node.val)
                 if node.val > p.val and node.val > q.val:
                     return dfs(node.left, p, q)
                 elif node.val < p.val and node.val < q.val:
