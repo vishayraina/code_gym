@@ -8,29 +8,33 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        slow = fast = head
-        # find middle
+        slow = head
+        fast = head
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-        # split
         right = slow.next
         slow.next = None
-        left = head
-        # reverse right
+        
+        
         prev = None
         while right:
             nxt = right.next
             right.next = prev
             prev = right
             right = nxt
-        right = prev
+        
+        node1 = head
+        node2 = prev
+        while node1 and node2:
+            nxt1 = node1.next
+            nxt2 = node2.next
+            node1.next = node2
+            node2.next = nxt1
+            node1 = nxt1
+            node2 = nxt2
 
-        while left and right:
-            lnext = left.next
-            rnext = right .next
-            left.next = right
-            right.next = lnext
-            right = rnext
-            left = lnext
         return head
+
+        
+        
