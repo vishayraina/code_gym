@@ -9,11 +9,6 @@ class Solution:
         # dp[n] := max non overlapping intervals given the first n intervals
         intervals.sort(key = lambda x: x[1])
         def p(i):
-            # l, r = 0, i-1
-            # target = intervals[i][0]
-            # while l <= r:
-            #     mid = (l+r)//2
-            #     if target < intervals[mid]:
             l, r = 0, i-1
             target = intervals[i][0]
             res = i
@@ -29,7 +24,6 @@ class Solution:
         dp = [0] * (len(intervals)+1)
         for i in range(1, len(dp)):
             dp[i] = max(dp[i-1], dp[p(i-1)]+1)
-        print(dp)
         return  len(intervals) - dp[-1]
 
             
