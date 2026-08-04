@@ -6,13 +6,15 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        def recursion(preorder, inorder):
-            if not preorder:
+        def recursion(pl, pr, il, ir):
+            if pl > pr or il > ir:
                 return None
-            root = preorder[0]
-            tree = TreeNode(root)
-            idx = inorder.index(root)
-            tree.left = recursion(preorder[1:idx+1], inorder[:idx])
-            tree.right = recursion(preorder[idx+1:], inorder[idx+1:])
-            return tree
-        return recursion(preorder, inorder)
+            
+            parent = preorder[pl]
+            root = TreeNode(parent)
+            idx = inorder.index(parent)
+            numsLeft = idx - il
+            root.left = recursion(pl+1, pl+numsLeft, il, il+numsLeft-1)
+            root.right = recursion(pl+numsLeft+1, pr, il+numsLeft+1, ir)
+            return root
+        return recursion(0, len(preorder)-1, 0, len(preorder)-1)
