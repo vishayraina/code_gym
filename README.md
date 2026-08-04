@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/widdiot/code_gym/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/widdiot/code_gym/tree/master/0739-daily-temperatures) |
 | [0973-k-closest-points-to-origin](https://github.com/widdiot/code_gym/tree/master/0973-k-closest-points-to-origin) |
+| [3731-find-missing-elements](https://github.com/widdiot/code_gym/tree/master/3731-find-missing-elements) |
 ## Hash Table
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/widdiot/code_gym/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/widdiot/code_gym/tree/master/0496-next-greater-element-i) |
+| [3731-find-missing-elements](https://github.com/widdiot/code_gym/tree/master/3731-find-missing-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/widdiot/code_gym/tree/master/0435-non-overlapping-intervals) |
 | [0973-k-closest-points-to-origin](https://github.com/widdiot/code_gym/tree/master/0973-k-closest-points-to-origin) |
+| [3731-find-missing-elements](https://github.com/widdiot/code_gym/tree/master/3731-find-missing-elements) |
 ## String
 |  |
 | ------- |
