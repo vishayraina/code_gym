@@ -6,18 +6,16 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        imap = {}
+        self.imap = {}
         for i in range(len(inorder)):
-            imap[inorder[i]] = i
-        def recursion(pl, pr, il, ir):
+            self.imap[inorder[i]] = i
+        def dfs(pl, pr, il, ir):
             if pl > pr or il > ir:
                 return None
-            
-            parent = preorder[pl]
-            root = TreeNode(parent)
-            idx = imap[parent]
-            numsLeft = idx - il
-            root.left = recursion(pl+1, pl+numsLeft, il, il+numsLeft-1)
-            root.right = recursion(pl+numsLeft+1, pr, il+numsLeft+1, ir)
+            root = TreeNode(preorder[pl])
+            idx = self.imap[root.val]
+            num_left = idx - il
+            root.left = dfs(pl+1, pl+num_left, il, il+num_left-1)
+            root.right = dfs(pl+num_left+1, pr, il+num_left+1, ir)
             return root
-        return recursion(0, len(preorder)-1, 0, len(preorder)-1)
+        return dfs(0, len(preorder)-1, 0, len(inorder)-1)
