@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/widdiot/code_gym/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/widdiot/code_gym/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/widdiot/code_gym/tree/master/0496-next-greater-element-i) |
+| [0695-max-area-of-island](https://github.com/widdiot/code_gym/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/widdiot/code_gym/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/widdiot/code_gym/tree/master/0739-daily-temperatures) |
 | [0973-k-closest-points-to-origin](https://github.com/widdiot/code_gym/tree/master/0973-k-closest-points-to-origin) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/widdiot/code_gym/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/widdiot/code_gym/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/widdiot/code_gym/tree/master/0695-max-area-of-island) |
 ## Linked List
 |  |
 | ------- |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/widdiot/code_gym/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/widdiot/code_gym/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/widdiot/code_gym/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/widdiot/code_gym/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/widdiot/code_gym/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/widdiot/code_gym/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/widdiot/code_gym/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0695-max-area-of-island](https://github.com/widdiot/code_gym/tree/master/0695-max-area-of-island) |
 ## String Matching
 |  |
 | ------- |
@@ -269,4 +273,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/widdiot/code_gym/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/widdiot/code_gym/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
