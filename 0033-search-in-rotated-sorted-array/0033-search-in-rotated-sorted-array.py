@@ -1,30 +1,32 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def get_pivot():
-            left, right = 0, len(nums)-1
-            res, resval = len(nums), float("inf")
-            while left <= right:
-                mid = (left+right)//2
-                if nums[mid] <= nums[right]:
-                    if resval >= nums[mid]:
+            l, r = 0, len(nums)-1
+            res = len(nums)
+            mn = float("inf")
+            while l <= r:
+                mid = (l+r)//2
+                if nums[mid] <= nums[r]:
+                    if nums[mid] < mn:
                         res = mid
-                        resval = nums[res]
-                    right = mid -1
+                        mn = nums[res]
+                    r = mid - 1
                 else:
-                    left = mid + 1
+                    l = mid + 1
             return res
-        def bs(nums, left, right, target):
-            while left <= right:
-                mid = (left+right)//2
-                if nums[mid] == target:
+        def binary_search(l, r):
+            while l <= r:
+                mid = (l+r)//2
+                if target == nums[mid]:
                     return mid
                 elif target < nums[mid]:
-                    right = mid -1
+                    r = mid - 1
                 else:
-                    left = mid + 1
+                    l = mid + 1
             return -1
         pivot = get_pivot()
-        if nums[pivot] <= target  and target <= nums[-1]:
-            return bs(nums, pivot, len(nums)-1, target)
-
-        return  bs(nums, 0, pivot-1, target)
+        if target >= nums[pivot] and target <= nums[len(nums)-1]:
+            return binary_search(pivot, len(nums)-1)
+        else:
+            return binary_search(0, pivot-1)
+         
