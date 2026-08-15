@@ -20,7 +20,6 @@ class Solution:
                 else:
                     r = mid - 1
             return res
-            return res
 
         dp = [0]*(len(intervals)+1)
         for i in range(1, len(dp)):
